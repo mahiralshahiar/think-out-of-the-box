@@ -152,6 +152,13 @@
 
 /* Footer part */
 
+.footer-main {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+
 footer {
     background: #151414;
 }
@@ -197,6 +204,39 @@ footer {
 .f-icon img {
     padding-right: 15px;
 
+
 }
 
 /* footer right part */
+.f-left-title {
+    padding-top: 100px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email {
+    background-color: #151414;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+
+.footer-right {
+    padding-right: 320px;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    background: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px;
+    color: white;
+    border: none;
+}
