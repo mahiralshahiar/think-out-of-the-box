@@ -1,0 +1,147 @@
+/* shared sytles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header styles part */
+
+
+.h-container {
+    /* background-image: url('images/banner/banner3.png'); */
+
+    background: url(images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-top: 215px;
+    padding-bottom: 180px;
+    */
+}
+
+.hh-container {
+
+    margin-right: 180px;
+}
+
+
+.h-title {
+
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px;
+
+}
+
+.h-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.h-description {
+    margin: 24px 0px 32px 0px;
+}
+
+/* 2nd page styles */
+
+.failures-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 250px;
+
+
+}
+
+.My-failures-of-previous-year {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 180px;
+
+
+}
+
+.failures-descriptions {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.p2-content {
+    margin-left: 87px;
+}
+
+.bullet-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+/* 3rd landing page My page styles */
+
+.plan-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.my-plan-content {
+    margin-top: 50px;
+    display: flex;
+    /* gap: 98px; */
+    justify-content: space-between;
+    padding: 0px 225px;
+}
+
+.plan-topic {
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+
+/* mini barner image of plan */
+.plan-banner {
+    border-radius: 8px;
+    background: url(./images/watch.png);
+    background-repeat: no-repeat;
+    margin-right: 230px;
+    margin-left: 230px;
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    position: relative;
+
+}
+
+.banner-img {
+    float: center;
+}
+
+.box-content {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    position: absolute;
+    top: 59px;
+    left: 64px;
+}
