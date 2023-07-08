@@ -12,13 +12,13 @@
 .h-container {
     /* background-image: url('images/banner/banner3.png'); */
 
-    background: url(images/banner/banner3.png);
+    background: url(/images/banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: right;
     padding-top: 215px;
     padding-bottom: 180px;
-    */
+
 }
 
 .hh-container {
@@ -121,7 +121,7 @@
 /* mini barner image of plan */
 .plan-banner {
     border-radius: 8px;
-    background: url(./images/watch.png);
+    background: url(/images/watch.png);
     background-repeat: no-repeat;
     margin-right: 230px;
     margin-left: 230px;
